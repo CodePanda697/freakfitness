@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freak Fitness - Premium Gym in Kathmandu</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Transform your body at Freak Fitness, Kathmandu's premier gym. State-of-the-art equipment, expert trainers, and personalized fitness programs. Located in Yetkha chowk, open 7 days a week.">
+    <meta name="keywords"
+        content="gym kathmandu, fitness center nepal, personal training kathmandu, freak fitness, yetkha gym, best gym kathmandu">
+    <meta name="author" content="Freak Fitness">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Freak Fitness - Premium Gym in Kathmandu">
+    <meta property="og:description"
+        content="Transform your body at Freak Fitness, Kathmandu's premier gym. Expert trainers, modern equipment, and proven results.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freakfitness.com.np">
+    <meta property="og:image" content="images/hero.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://freakfitness.com.np">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <header>
+        <div class="header-container">
+            <div class="nav-wrapper">
+                <a href="/" class="logo">
+                    <span class="logo-text">FREAK FITNESS</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#contact">Contact</a>
+                    <button id="theme-toggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                    </button>
+                </nav>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="space-y-4">
+                <h1 class="animate-on-scroll animate-in">
+                    TRANSFORM YOUR BODY AT
+                    <span class="text-red-500">FREAK FITNESS</span>
+                </h1>
+                <p class="animate-on-scroll animate-delay-200 animate-in">
+                    Kathmandu's premier fitness center with state-of-the-art equipment and expert trainers ready to help
+                    you achieve your fitness goals
+                </p>
+            </div>
+            <div class="cta-buttons">
+                <button class="primary-btn">Join Now</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+            <a href="#about" class="discover-more">
+                Discover More
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 13l5 5 5-5" />
+                    <path d="M7 6l5 5 5-5" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <img src="images/trainer.jpg" alt="Expert Trainers" class="feature-image">
+            <div class="feature-content">
+                <h3>Expert Trainers</h3>
+                <p>Certified professionals to guide your fitness journey</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <img src="images/equipment.jpg" alt="Modern Equipment" class="feature-image">
+            <div class="feature-content">
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art machines for effective workouts</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <img src="images/results.jpg" alt="Proven Results" class="feature-image">
+            <div class="feature-content">
+                <h3>Proven Results</h3>
+                <p>Hundreds of success stories and transformations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="welcome">
+        <div class="welcome-text">
+            <span class="about-label">About Us</span>
+            <h2>Welcome to <span class="highlight">Freak Fitness</span></h2>
+            <p>At Freak Fitness, we're dedicated to helping you achieve your fitness goals in a motivating and
+                supportive environment. Our modern facility in Yetkha chowk, Kathmandu features top-of-the-line
+                equipment and expert trainers ready to guide you on your fitness journey.</p>
+            <div class="rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>4.7 rating from our members</span>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-image">
+                            <img src="images/john.jpg" alt="Reviewer" class="reviewer-avatar">
+                        </div>
+                        <div class="reviewer-details">
+                            <h3 class="text-xl font-semibold">John Doe</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                    <p class="review-text">"Amazing gym with top-notch equipment and professional trainers. The
+                        atmosphere is motivating and the staff is very helpful. Highly recommended!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-image">
+                            <img src="images/sarah.jpg" alt="Reviewer" class="reviewer-avatar">
+                        </div>
+                        <div class="reviewer-details">
+                            <h3 class="text-xl font-semibold">Sarah Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="review-date">1 month ago</span>
+                        </div>
+                    </div>
+                    <p class="review-text">"Best fitness center in Kathmandu! The trainers are knowledgeable and
+                        supportive. I've seen great results in just a few months of training here."</p>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-image">
+            <img src="images/interior.jpg" alt="Gym Interior">
+        </div>
+    </section>
+
+    <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-muted/50 dark:bg-muted/10">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+                <div class="space-y-2">
+                    <div
+                        class="inline-block rounded-lg bg-red-600 px-3 py-1 text-sm text-white animate-on-scroll animate-slide-top">
+                        Our Services
+                    </div>
+                    <h2
+                        class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl animate-on-scroll animate-slide-top">
+                        What We Offer
+                    </h2>
+                    <p
+                        class="max-w-[900px] pb-8 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed animate-on-scroll animate-slide-top">
+                        Comprehensive fitness solutions tailored to your needs</p>
+                </div>
+            </div>
+            <div class="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-slide-left overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 0ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Personal Training"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/personal.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">💪</div>
+                        <h3 class="text-xl font-bold">Personal Training</h3>
+                        <p class="text-muted-foreground">One-on-one sessions with expert trainers tailored to your
+                            specific goals</p>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-fade-in overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 100ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Group Classes"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/group.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">👥</div>
+                        <h3 class="text-xl font-bold">Group Classes</h3>
+                        <p class="text-muted-foreground">Energetic group workouts including HIIT, yoga, and strength
+                            training</p>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-slide-right overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 200ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Cardio Zone"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/cardio.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">🏃</div>
+                        <h3 class="text-xl font-bold">Cardio Zone</h3>
+                        <p class="text-muted-foreground">State-of-the-art cardio equipment for effective heart-pumping
+                            workouts</p>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-slide-left overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 300ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Strength Training"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/strength.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">🏋️</div>
+                        <h3 class="text-xl font-bold">Strength Training</h3>
+                        <p class="text-muted-foreground">Comprehensive weight training area with free weights and
+                            machines</p>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-fade-in overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 400ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Nutrition Guidance"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/diet.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">🥗</div>
+                        <h3 class="text-xl font-bold">Nutrition Guidance</h3>
+                        <p class="text-muted-foreground">Expert advice on diet and nutrition to complement your fitness
+                            routine</p>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-lg animate-on-scroll animate-slide-right overflow-hidden animate-in"
+                    data-v0-t="card" style="transition-delay: 500ms;">
+                    <div class="h-40 overflow-hidden">
+                        <img alt="Fitness Assessment"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                            src="images/assessment.jpg">
+                    </div>
+                    <div class="p-6 flex flex-col items-center text-center space-y-4">
+                        <div class="text-4xl">📊</div>
+                        <h3 class="text-xl font-bold">Fitness Assessment</h3>
+                        <p class="text-muted-foreground">Comprehensive evaluation to track your progress and optimize
+                            results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="hours">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+                <h2
+                    class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl animate-on-scroll animate-slide-top">
+                    Opening Hours
+                </h2>
+            </div>
+        </div>
+        <div class="schedule">
+            <div class="day animate-on-scroll animate-slide-left">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Monday</span>
+                </div>
+                <span>6 AM - 10 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-right">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Tuesday</span>
+                </div>
+                <span>6 AM - 10 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-left">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Wednesday</span>
+                </div>
+                <span>6 AM - 10 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-right">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Thursday</span>
+                </div>
+                <span>6 AM - 10 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-left">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Friday</span>
+                </div>
+                <span>6 AM - 10 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-right">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Saturday</span>
+                </div>
+                <span>6 AM - 8 PM</span>
+            </div>
+            <div class="day animate-on-scroll animate-slide-left">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="clock-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Sunday</span>
+                </div>
+                <span>8 AM - 6 PM</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="w-full py-12 md:py-24 lg:py-32 bg-muted/50 dark:bg-muted/10">
+        <div class="container px-4 md:px-6">
+            <div class="grid gap-6 lg:grid-cols-2 lg:gap-12">
+                <div class="space-y-4">
+                    <h2
+                        class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl animate-on-scroll animate-in">
+                        Get In Touch
+                    </h2>
+                    <p
+                        class="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed animate-on-scroll animate-delay-200 animate-in">
+                        Have questions? Reach out to us and we'll be happy to help.</p>
+                    <div class="space-y-4">
+                        <div
+                            class="flex items-start gap-4 animate-on-scroll fade-in-right animate-delay-300 animate-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-map-pin h-6 w-6 text-red-600">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <h3 class="font-bold">Address</h3>
+                                <p class="text-muted-foreground">Yetkha chowk, Kathmandu 44600, Nepal</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start gap-4 animate-on-scroll fade-in-right animate-delay-400 animate-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-phone h-6 w-6 text-red-600">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h3 class="font-bold">Phone</h3>
+                                <p class="text-muted-foreground">984-9430936, +977 984-9430936</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start gap-4 animate-on-scroll fade-in-right animate-delay-500 animate-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-instagram h-6 w-6 text-red-600">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                            <div>
+                                <h3 class="font-bold">Instagram</h3>
+                                <a href="https://instagram.com/freak_fitness.nardevi" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="text-red-600 hover:underline">@freak_fitness.nardevi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-4 animate-on-scroll fade-in-left animate-delay-300 animate-in">
+                    <div class="grid gap-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <label for="first-name"
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">First
+                                    name</label>
+                                <input id="first-name"
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                    placeholder="Enter your first name" fdprocessedid="l0xzto">
+                            </div>
+                            <div class="space-y-2">
+                                <label for="last-name"
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Last
+                                    name</label>
+                                <input id="last-name"
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                    placeholder="Enter your last name" fdprocessedid="n7i5rv">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label for="email"
+                                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Email</label>
+                            <input id="email"
+                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                placeholder="Enter your email" type="email" fdprocessedid="nrjxdc">
+                        </div>
+                        <div class="space-y-2">
+                            <label for="message"
+                                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Message</label>
+                            <textarea id="message"
+                                class="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-red-600 hover:bg-red-700"
+                            fdprocessedid="qs4l0q">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map mb-16">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl animate-on-scroll animate-in">
+                    Find Us
+                </h2>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2679195019826!2d85.30721097392173!3d27.705199982694193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19d3cf3f917f%3A0x2a6c7809bd1dd189!2sFreak%20Fitness%20Yetkha!5e0!3m2!1sen!2snp!4v1710861433044!5m2!1sen!2snp"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Freak Fitness Location Map - Yetkha chowk, Kathmandu">
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="w-full py-12 md:py-16">
+        <div class="container px-4 md:px-6">
+            <div class="grid gap-12 lg:grid-cols-3 md:grid-cols-2 animate-on-scroll animate-fade-in">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold tracking-tighter">FREAK FITNESS</h2>
+                    <p class="text-zinc-400">Transform your body and mind with the best fitness facility in Kathmandu.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="https://instagram.com/freak_fitness.nardevi"
+                            class="text-zinc-400 hover:text-red-500 transition-colors"
+                            aria-label="Follow us on Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-6 w-6">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                            <span class="sr-only">Follow Freak Fitness on Instagram</span>
+                        </a>
+                        <a href="#" class="text-zinc-400 hover:text-blue-500 transition-colors"
+                            aria-label="Visit our Facebook page">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-6 w-6">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                            <span class="sr-only">Visit Freak Fitness on Facebook</span>
+                        </a>
+                        <a href="https://wa.me/9779849430936"
+                            class="text-zinc-400 hover:text-green-500 transition-colors"
+                            aria-label="Contact us on WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-6 w-6">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="space-y-6 animate-on-scroll animate-fade-in" style="animation-delay: 100ms;">
+                    <h3 class="text-xl font-semibold">Quick Links</h3>
+                    <ul class="space-y-4 text-zinc-400">
+                        <li><a href="#about" class="hover:text-red-500 transition-colors">About Us</a></li>
+                        <li><a href="#services" class="hover:text-red-500 transition-colors">Services</a></li>
+                        <li><a href="#schedule" class="hover:text-red-500 transition-colors">Schedule</a></li>
+                        <li><a href="#contact" class="hover:text-red-500 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-6 animate-on-scroll animate-fade-in" style="animation-delay: 200ms;">
+                    <h3 class="text-xl font-semibold">Contact</h3>
+                    <ul class="space-y-4 text-zinc-400">
+                        <li class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-5 w-5">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            <span>984-9430936</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-5 w-5">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Yetkha chowk, Kathmandu</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 pt-8 border-t border-zinc-800 text-center text-zinc-400 animate-on-scroll animate-fade-in"
+                style="animation-delay: 300ms;">
+                <p>&copy; 2024 Freak Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <div class="fab-options">
+            <a href="https://instagram.com/freak_fitness.nardevi" target="_blank" rel="noopener noreferrer"
+                class="social-link">
+                <span class="social-label">Instagram</span>
+                <button class="fab-button instagram" aria-label="Visit our Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="social-icon">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                </button>
+            </a>
+            <a href="https://wa.me/9779849430936" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-label">WhatsApp</span>
+                <button class="fab-button whatsapp" aria-label="Contact us on WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="social-icon">
+                        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+        <button class="fab-button main" aria-label="Open Messaging Options">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="message-icon">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
