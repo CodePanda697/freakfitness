@@ -24,17 +24,37 @@ themeToggle.addEventListener('click', () => {
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
-hamburger.addEventListener('click', () => {
+function toggleMenu() {
     hamburger.classList.toggle('active');
     navLinks.classList.toggle('active');
-});
+    body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+}
+
+hamburger.addEventListener('click', toggleMenu);
 
 // Close mobile menu when clicking a link
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navLinks.classList.remove('active');
+        if (navLinks.classList.contains('active')) {
+            toggleMenu();
+        }
     });
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (navLinks.classList.contains('active') &&
+        !navLinks.contains(e.target) &&
+        !hamburger.contains(e.target)) {
+        toggleMenu();
+    }
+});
+
+// Close mobile menu on window resize
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768 && navLinks.classList.contains('active')) {
+        toggleMenu();
+    }
 });
 
 // Smooth scroll for navigation links
